@@ -1,1 +1,1 @@
-# Tarandeep-Singh---Portfolio-Android-App
+# Tarandeep-Singh - Portfolio Android App
