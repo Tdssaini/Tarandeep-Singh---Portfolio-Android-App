@@ -1,0 +1,15 @@
+<html>
+<body>
+<div style="text-align:center">
+  <span id="totalExperience" class="site-description"  style="font-size:16px;margin-top:2px;"> </span>
+</div>
+<script>
+function myFunction() {
+var sdt = new Date('2014-02-10');
+      var difdt = new Date(new Date() - sdt);
+      document.getElementById("totalExperience").innerHTML = (difdt.toISOString().slice(0, 4) - 1970) + "Years, " + (difdt.getMonth()+1) + "Months & " + difdt.getDate() + "Days of IT Experience";
+}
+myFunction();
+</script>
+</body>
+</html>

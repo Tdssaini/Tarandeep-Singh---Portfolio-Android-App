@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tarandeep Singh</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_my_apps">My Apps</string>
+    <string name="nav_color">Material Design Color</string>
+    <string name="nav_header_text">Click to start login activity</string>
+    <string name="main_snack_bar">This is a snack bar</string>
+    <string name="main_snack_bar_action">Okay</string>
+    <string name="main_flat_button_1_clicked">Flat Button 1</string>
+    <string name="main_flat_button_2_clicked">Flat Button 2</string>
+    <string name="main_card_title">Title goes here</string>
+    <string name="main_card_subtitle">Subtitle here</string>
+    <string name="main_card_button_1">ACTION 1</string>
+    <string name="main_card_button_2">ACTION 2</string>
+    <string name="main_card_details">Details here</string>
+    <string name="main_card_title_short">Title</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--  -->
+    <color name="disableRow">#E0E0E0</color>
+    <color name="headerColor">#6D6968</color>
+    <color name="headerColor2">#A9A9A9</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="sliderBgColor">#606060</color>
+    <color name="loginUsrBgcolorOnSlider">#333333</color>
+    <color name="sliderItemColor">#606060</color>
+    <color name="dateLabelBgColor">#B7B7B6</color>
+    <color name="dateLabelBgColorOld">#989898</color>
+    <color name="dateNavigator">#cccccc</color>
+    <color name="dateLabelBgColorNew">#000000</color>
+    <!--  -->
+    <color name="rowDisablelight">#F0F0F0</color>
+    <color name="rowDisableleDark">#CDCDCD</color>
+    <color name="gray_default">#cccccc</color>
+    <color name="gray_dark">#696969</color>
+    <color name="gray_2">#D3D4D4</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="light_gray">#DCDCDC</color>
+    <color name="dim_gray">#696969</color>
+    <color name="blue_lightSteel">#B0C4DE</color>
+    <color name="blue_default">#DCE6F1</color>
+    <color name="dateCompColor">#EBEBEB</color>
+    <color name="dateCompClr">#1C3947</color>
+    <color name="bgColor">#151E2E</color>
+    <color name="checkCheckedColor">#0498CA</color>
+    <color name="checkedUnCheckedColor">#000000</color>
+    <color name="purple_holo">#ffaa66cc</color>
+
+    <!-- Black Combination -->
+    <color name="blackMedium">#2B2B2B</color>
+    <color name="blackDark">#000000</color>
+    <color name="punjabBhawan">#1725cc</color>
+    <!-- End OF Black Combination -->
+
+
+    <!-- Red Combination -->
+    <color name="mediumRed">#DF7778</color>
+    <color name="darkRed">#CE2E22</color>
+    <!-- End Of  Red Combination -->
+
+
+    <!-- Row Color Combination -->
+    <color name="rowMedium">#6A87AF</color>
+    <color name="rowDark">#476A9C</color>
+    <!-- End Of Row Color Combition -->
+
+    <color name="iOSDefaultMedium">#7A93B7</color>
+    <color name="iOSDefaultDark">#476A9B</color>
+    <color name="blueDark">#0867CB</color>
+    <color name="iOSnewButton">#6D6968</color>
+    <color name="blueMedium">#316BE2</color>
+    <color name="greenMedium">#99FF99</color>
+    <color name="greenDark">#198719</color>
+    <color name="orange">#fac090</color>
+    <color name="tranlucent_background">#99000000</color>
+    <color name="default_button">#BDBDBD</color>
+    <color name="darkBlue">#0000FF</color>
+    <color name="blueDim">#3B9ACA</color>
+    <color name="blueDimDark">#1A74A1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_new">#C38586</color>
+    <color name="blueText">#50B7E4</color>
+    <color name="red">#FF0000</color>
+    <color name="redFaded">#FCC0C0</color>
+    <color name="darkGreen">#099A73</color>
+    <color name="greenFaded">#A9EFA9</color>
+    <color name="blue">#A9D0F5</color>
+    <color name="orangeTab">#FF8000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="greenDim1">#15CB96</color>
+    <color name="greenDark1">#089E76</color>
+    <color name="redDim">#BE2625</color>
+    <color name="redDim1">#BA413F</color>
+    <color name="redDark1">#AA1918</color>
+    <color name="redDim2">#BB0A0A</color>
+    <color name="redDark2">#870B0C</color>
+
+    <!-- New UI Colors -->
+
+    <color name="yellowDark">#FFFF00</color>
+    <color name="yellowLight">#FFFFCC</color>
+    <color name="fontColor">#8EB4E3</color>
+    <color name="background">#54A3F3</color>
+    <color name="selector">#FFCC99</color>
+    <color name="unapprovedColor">#C0504D</color>
+    <color name="header_background">#17365D</color>
+    <color name="select_site_background">#D9D9D9</color>
+    <color name="view_pager_title_background">#000000</color>
+    <color name="row_header_color">#17365D</color>
+    <color name="row_header_text_color">#FFFFFF</color>
+
+    <color name="biglala_default_yellow">#FDB822</color>
+    <color name="biglala_dark_yellow">#FD8622</color>
+    <color name="biglala_light_yellow">#FDC822</color>
+    <color name="biglala_base_blue">#538cc6</color>
+
+</resources>

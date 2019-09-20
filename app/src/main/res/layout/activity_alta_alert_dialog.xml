@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tabTransparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:divider="#000000"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:showDividers="end" >
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:text="Warning"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:divider="#000000"
+            android:dividerPadding="10dp"
+            android:showDividers="beginning" >
+
+            <TextView
+                android:id="@+id/txt_alert_message"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal|center"
+                android:text="Do you realy want to exit ?"
+                android:textColor="@android:color/black"
+                android:textSize="15dip"
+                android:textStyle="normal" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/gray_default" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="90dip"
+                android:layout_height="45dip"
+                android:layout_weight="2"
+                android:text="OK"
+                android:textColor="#0000FF"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/buttonDevider"
+                android:layout_width="0.5dip"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dip"
+                android:visibility="gone"
+                android:background="@color/gray_default"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="90dip"
+                android:layout_height="45dip"
+                android:layout_weight="2"
+                android:text="Cancel"
+                android:textColor="#0000FF"
+                android:textSize="17dip"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_rectangle_black_border"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#1725cc"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:text="NEED HELP ?"
+                    android:textColor="#ffffff"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etFirstName"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="First Name"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="textPersonName"
+                     android:maxLines="1" />
+
+             </android.support.design.widget.TextInputLayout>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#e1e1e1"/>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etLastName"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Last Name"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="textPersonName"
+                     android:maxLines="1" />
+
+             </android.support.design.widget.TextInputLayout>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#e1e1e1"/>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etEmail"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Email"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="textWebEmailAddress"
+                     android:maxLines="1" />
+
+             </android.support.design.widget.TextInputLayout>
+
+            <View android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginTop="10dp"
+             android:background="#e1e1e1"/>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etPhone"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Phone"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="text|phone"
+                     android:maxLines="1"/>
+
+             </android.support.design.widget.TextInputLayout>
+
+             <View android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:layout_marginTop="10dp"
+                 android:background="#e1e1e1"/>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etSubject"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Subject"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="textShortMessage"/>
+
+             </android.support.design.widget.TextInputLayout>
+
+             <View android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:layout_marginTop="10dp"
+                 android:background="#e1e1e1"/>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <EditText
+                     android:id="@+id/etMessage"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Question"
+                     android:imeActionId="@+id/login"
+                     android:imeActionLabel="@string/action_sign_in_short"
+                     android:imeOptions="actionUnspecified"
+                     android:inputType="textLongMessage"/>
+
+             </android.support.design.widget.TextInputLayout>
+
+             <View android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:layout_marginTop="10dp"
+                 android:background="#e1e1e1"/>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:gravity="center"
+                 android:paddingLeft="3dip"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="2"
+                     android:text="Can I post your Question on the Blog" />
+
+                 <RadioButton
+                     android:id="@+id/rbYes"
+                     android:layout_width="0dip"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:text="Yes" />
+
+                 <RadioButton
+                     android:id="@+id/rbNo"
+                     android:layout_width="0dip"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:text="No" />
+
+             </LinearLayout>
+
+             <Button
+                 android:id="@+id/button"
+                 android:layout_marginTop="5dip"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Submit"
+                 android:textStyle="bold"
+                 android:background="@android:color/holo_green_dark"/>
+
+         </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
